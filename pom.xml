@@ -8,5 +8,16 @@
     <artifactId>com.amintor.servletproject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${javax.servlet-api.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
