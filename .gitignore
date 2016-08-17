@@ -20,5 +20,4 @@ hs_err_pid*
 *.iml
 out
 gen
-.gitignore
 /README.md
